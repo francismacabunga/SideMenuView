@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(macOS 10.15, *)
 public struct SideMenuView<mainView: View,
                            sideMenuView: View>: View {
     private var MainView: mainView
